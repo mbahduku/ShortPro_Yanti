@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShortPro Bisnis Auto Cuan</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f5f5f5; color: #222; }
+
+  .hero { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); color: #fff; text-align: center; padding: 40px 20px 30px; }
+  .avatar { width: 80px; height: 80px; border-radius: 50%; border: 3px solid #e94560; margin-bottom: 12px; object-fit: cover; }
+  .hero h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .hero p { font-size: 14px; color: #b0c4de; }
+
+  .banner-img { width: 100%; max-height: 200px; object-fit: cover; display: block; }
+
+  .section { background: #fff; margin: 12px; border-radius: 12px; padding: 18px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .section h2 { font-size: 16px; font-weight: 700; color: #0f3460; margin-bottom: 10px; border-left: 4px solid #e94560; padding-left: 10px; }
+  .section p { font-size: 13px; line-height: 1.7; color: #444; }
+
+  .media-links { list-style: none; }
+  .media-links li { margin-bottom: 8px; }
+  .media-links a { color: #0f3460; font-size: 13px; font-weight: 600; text-decoration: none; }
+  .media-links a:hover { text-decoration: underline; }
+
+  .plan-card { background: #f0f6ff; border-radius: 10px; padding: 14px; margin-bottom: 10px; border-left: 4px solid #0f3460; }
+  .plan-card h3 { font-size: 15px; color: #0f3460; margin-bottom: 6px; }
+  .plan-card ul { list-style: none; font-size: 13px; color: #333; }
+  .plan-card ul li::before { content: "✓ "; color: #27ae60; font-weight: bold; }
+  .plan-card ul li { margin-bottom: 3px; }
+
+  .bonus-card { background: #fff8e1; border-radius: 10px; padding: 14px; margin-bottom: 10px; border-left: 4px solid #f39c12; }
+  .bonus-card h3 { font-size: 14px; color: #e67e22; margin-bottom: 6px; }
+  .bonus-card ul { list-style: none; font-size: 13px; color: #555; }
+  .bonus-card ul li { margin-bottom: 4px; }
+
+  .level-table { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+  .level-table th { background: #0f3460; color: #fff; padding: 8px 6px; text-align: left; }
+  .level-table td { padding: 7px 6px; border-bottom: 1px solid #eee; }
+  .level-table tr:nth-child(even) td { background: #f9f9f9; }
+
+  .steps-list { counter-reset: steps; list-style: none; }
+  .steps-list li { counter-increment: steps; font-size: 13px; padding: 7px 10px 7px 42px; position: relative; border-bottom: 1px dashed #eee; }
+  .steps-list li::before { content: counter(steps); position: absolute; left: 10px; top: 6px; background: #e94560; color: #fff; width: 24px; height: 24px; border-radius: 50%; text-align: center; line-height: 24px; font-size: 12px; font-weight: bold; }
+
+  .wa-btn { display: block; background: #25d366; color: #fff; text-align: center; padding: 16px; border-radius: 50px; font-size: 16px; font-weight: 700; text-decoration: none; margin: 16px; box-shadow: 0 4px 15px rgba(37,211,102,0.4); }
+  .wa-btn:hover { background: #1ebe5d; }
+
+  .daftar-btn { display: block; background: #e94560; color: #fff; text-align: center; padding: 16px; border-radius: 50px; font-size: 16px; font-weight: 700; text-decoration: none; margin: 16px; box-shadow: 0 4px 15px rgba(233,69,96,0.35); }
+  .daftar-btn:hover { background: #c73652; }
+
+  .address-list { list-style: none; font-size: 13px; }
+  .address-list li { padding: 6px 0; border-bottom: 1px solid #f0f0f0; color: #444; }
+  .address-list li::before { content: "📍 "; }
+
+  .footer { text-align: center; padding: 20px; font-size: 12px; color: #888; }
+  .highlight { color: #e94560; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img class="avatar" src="https://bioqu.id/uploads/avatars/2cd0988da05f9bed14f1acac78c75445.jpg" onerror="this.style.display='none'" alt="Avatar">
+  <h1>ShortPro Bisnis AutoCuan</h1>
+  <p>Gabung di ShortPro sekarang, waktu santai jadi penghasilan!</p>
+</div>
+
+<img class="banner-img" src="https://bioqu.id/uploads/galleries/2315543/3e9a83cb728211e422d249404a5effc8.jpg" onerror="this.style.display='none'" alt="Banner ShortPro">
+
+<div class="section">
+  <h2>Selamat Datang!</h2>
+  <p>Selamat Anda Telah Menemukan Websupport Di Pusat Informasi Bisnis <strong>SHORT PRO</strong> — Platform hiburan drama pendek yang menghasilkan cuan nyata untuk Anda!</p>
+</div>
+
+<div class="section">
+  <h2>Liputan Media Nasional</h2>
+  <ul class="media-links">
+    <li><a href="https://republika.co.id/berita/t05j19291/rayakan-ulang-tahun-pertama-shortpro-miliki-sejuta-pengguna-dan-ekspansi-menuju-pasar-global" target="_blank">📰 Republika — ShortPro Miliki Sejuta Pengguna</a></li>
+    <li><a href="https://mediaindonesia.com/ekonomi/795801/cetak-1-juta-pengguna-shortpro-siap-ekspansi-ke-asia-tenggara" target="_blank">📰 Media Indonesia — Ekspansi ke Asia Tenggara</a></li>
+    <li><a href="https://www.liputan6.com/showbiz/read/6118597/platform-drama-pendek-jadi-sektor-baru-menjanjikan-di-industri-hiburan-digital-seperti-apa" target="_blank">📺 Liputan 6 — Platform Drama Pendek</a></li>
+    <li><a href="https://www.tvonenews.com/channel/news/308745-perayaan-ulang-tahun-pertama-shortpro" target="_blank">📺 TV One News — Ulang Tahun Pertama ShortPro</a></li>
+    <li><a href="https://www.youtube.com/watch?v=XW7sKVWt_Gc" target="_blank">📺 Metro TV — ShortPro</a></li>
+    <li><a href="https://www.kompas.tv/video/608677/shortpro-genjot-ekonomi-kreatif-digital-lewat-400-drama-dan-rencana-ekspansi-global" target="_blank">📺 Kompas TV — 400 Drama & Ekspansi Global</a></li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Marketing Plan ShortPro</h2>
+  <p style="font-size:12px;color:#e94560;margin-bottom:12px;">🅰️ PROFIT PASIF INCOME</p>
+
+  <div class="plan-card">
+    <h3>🎞️ AI 3</h3>
+    <ul>
+      <li>Modal Rp.800.000 / 50 koin</li>
+      <li>Kontrak = 45 hari</li>
+      <li>Profit = <span class="highlight">1,6% / hari</span></li>
+    </ul>
+  </div>
+
+  <div class="plan-card">
+    <h3>🎞️ AI 4</h3>
+    <ul>
+      <li>Modal Rp.800.000 / 50 koin</li>
+      <li>Kontrak = 90 hari</li>
+      <li>Profit = <span class="highlight">2% / hari</span></li>
+    </ul>
+  </div>
+
+  <div class="plan-card">
+    <h3>🎞️ AI Investasi Cerdas</h3>
+    <ul>
+      <li>Modal Rp.800.000 / 50 koin</li>
+      <li>Kontrak = 365 hari</li>
+      <li>Profit = <span class="highlight">3% / hari</span></li>
+    </ul>
+  </div>
+
+  <p style="font-size:12px;color:#888;margin-top:8px;">⚠️ Setelah kontrak habis, modal dikembalikan dalam bentuk koin yang bisa di-WD atau dilanjutkan.</p>
+</div>
+
+<div class="section">
+  <h2>Bonus Jaringan</h2>
+  <p style="font-size:12px;color:#e94560;margin-bottom:12px;">🅱️ PROFIT AKTIF / PENGEMBANGAN TEAM</p>
+
+  <div class="bonus-card">
+    <h3>1. Bonus Sponsor</h3>
+    <ul>
+      <li>Level 1 = <strong>10%</strong></li>
+      <li>Level 2 = <strong>5%</strong></li>
+    </ul>
+  </div>
+
+  <div class="bonus-card">
+    <h3>2. Gaji Bulanan</h3>
+    <ul>
+      <li>Level 3 = <strong>Rp 360.000</strong></li>
+      <li>Level 4 = <strong>Rp 800.000</strong></li>
+      <li>Level 5 = <strong>Rp 4.800.000</strong></li>
+      <li>Level 6 = <strong>Rp 32.000.000</strong></li>
+      <li>Level 7 = <strong>Rp 160.000.000</strong></li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Tabel Insentif Bulanan</h2>
+  <p style="font-size:12px;color:#555;margin-bottom:10px;">1 Koin = Rp 16.000</p>
+  <table class="level-table">
+    <tr>
+      <th>Level</th>
+      <th>Koin</th>
+      <th>Nilai Rupiah</th>
+    </tr>
+    <tr><td>Level 3</td><td>20 koin</td><td>Rp 320.000</td></tr>
+    <tr><td>Level 4</td><td>50 koin</td><td>Rp 800.000</td></tr>
+    <tr><td>Level 5</td><td>300 koin</td><td>Rp 4.800.000</td></tr>
+    <tr><td>Level 6</td><td>2.000 koin</td><td>Rp 32.000.000</td></tr>
+    <tr><td>Level 7</td><td>10.000 koin</td><td>Rp 160.000.000</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2>Cara Registrasi</h2>
+  <ol class="steps-list">
+    <li>Klik Link Referral dari Pengundang</li>
+    <li>Isi No Tlp atau Email</li>
+    <li>Klik Kirim Kode</li>
+    <li>Isi OTP</li>
+    <li>Buat Password</li>
+    <li>Isi Data diri sesuai KTP</li>
+    <li>Lanjut Verifikasi Profil / KYC</li>
+    <li>Isi Ulang (Deposit)</li>
+    <li>Dukung Drama</li>
+    <li><strong>NIKMATIN HASIL! 🎉</strong></li>
+  </ol>
+</div>
+
+<div class="section">
+  <h2>Lokasi Kantor</h2>
+  <ul class="address-list">
+    <li><strong>Head Office Jakarta:</strong> Wisma GKBI Lt. 37, Jl. Jenderal Sudirman No. 28, Jakarta Pusat 10210</li>
+    <li><strong>Tangerang:</strong> Hampton Avenue, Blok D No. 9-10, Gading Serpong, Tangerang 15810</li>
+  </ul>
+</div>
+
+<a class="daftar-btn" href="https://shortpro.app/register?inviterId=F26831741" target="_blank">🎬 DAFTAR SEKARANG</a>
+
+<a class="wa-btn" href="https://wa.me/628181562460?text=Halo,%20saya%20ingin%20mengetahui%20lebih%20lanjut%20tentang%20ShortPro" target="_blank">💬 Hubungi via WhatsApp</a>
+
+<div class="footer">
+  <p>© ShortPro — PT Nextgen Inovasi Digital</p>
+  <p style="margin-top:4px;">Info & Konsultasi: <strong>0818156246</strong></p>
+</div>
+
+</body>
+</html>
